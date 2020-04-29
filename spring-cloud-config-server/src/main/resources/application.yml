@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  # Spring Cloud Config Server Repository
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rsta80/spring-cloud-config-repo.git
+          clone-on-start: true
+
+server:
+  port: 8888
