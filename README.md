@@ -11,4 +11,5 @@ Spring cloud training based on Udemy Course, using the folowing tools and Framew
 * Ribbon
 * Rabbit MQ
 * MongoDB
+* Hystrix
 
